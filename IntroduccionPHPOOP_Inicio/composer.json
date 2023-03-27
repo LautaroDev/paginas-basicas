@@ -1,0 +1,18 @@
+{
+    "name": "lauta/introduccion-phpoop_inicio",
+    "description": "Aprendiendo namespaces y autoload",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lautaro",
+            "email": "lautaroencalado@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.4"
+    }
+}

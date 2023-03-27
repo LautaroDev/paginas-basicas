@@ -1,0 +1,22 @@
+{
+  "name": "appsalon",
+  "version": "1.0.0",
+  "description": "App salon practice ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "css" : "gulp css",
+    "dev" : "gulp dev"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Lautaro Encalado",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.56.0"
+  }
+}
